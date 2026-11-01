@@ -2,13 +2,13 @@
 
 ## Project ovrview
 
-This project demonstrates the end-to-end development of a modern data lakehouse, focusing on the core practices and workflows used in Data Engineering.
+This project is an end-to-end data lakehouse built on Databricks, using open crime data from the UK police. It follows the same practices and workflows that data engineering teams use day to day.
 
-The project covers the complete data pipeline, from extracting and loading raw data to cleaning, transforming, and integrating data into a structured data lakehouse.
+It covers the whole pipeline: extracting raw data, loading it into the lakehouse, then cleaning, transforming and combining it into structured tables ready for analysis.
 
-It follows a Medallion Architecture with Bronze, Silver, and Gold layers, demonstrating key Data Engineering concepts such as ETL/ELT, data transformation, data quality, data modeling, and scalable data pipelines.
+The lakehouse follows a **Medallion Architecture** with **Bronze**, **Silver** and **Gold** layers, and uses an **ELT** approach. Along the way it shows key data engineering concepts such as data transformation, data quality, data modelling and scalable pipelines.
 
-The main goal of this project is to build a practical Data Engineering solution and demonstrate the skills required to design and implement a reliable data warehouse.
+The main goal is to build a practical data engineering solution, and to show the skills needed to design and build a reliable data lakehouse.
 
 ---
 ## Project requirements
@@ -16,16 +16,16 @@ The main goal of this project is to build a practical Data Engineering solution 
 ### Building the data lakehouse
 
 #### Objective
-build a data lakehouse on Databricks using open crime data from the UK police. The aim is to take millions of messy rows spread over thousands of CSV files, and turn them into clean, trustworthy tables that can answer real questions about crime in England, Wales and Northern Irland.
+Build a data lakehouse on Databricks using open crime data from the UK police. The aim is to take millions of messy rows spread over thousands of CSV files, and turn them into clean, trustworthy tables that can answer real questions about crime in England, Wales and Northern Ireland.
 
 #### Specifications 
--  **Data Sources** : CSV files, a JSON API and government Excel/CSV files, all joined together.
+-  **Data Sources** : Bring in data from several sources and formats: police CSV files, a JSON API, and government Excel and CSV files.
 -  **Data Quality** : Identify and resolve data quality issues across thousands of files .
--  **Integration** : Combine them into a single data model designed for analytical queries .
+-  **Integration** : Combine all sources into a single data model built for analytical queries.
 -  **Documentation** : Provide a clear documentation of the data model to support business stekholders and analytical teams.
 
 ## About me 
-I'm Islam, a Data Engineer with a background in Computer Science Engineering, specializing in Big Data, from Morocco. I also hold a Master's degree in Business and Data Analytics from London.
+I'm Islam, a data engineer from Morocco, now based in London. I have an engineering degree in Computer Science with a specialisation in Big Data, and a Master's in Business and Data Analytics from Ravensbourne University London.
 
-I focus on building data pipelines, data warehouses, and scalable data solutions, with experience in technologies such as Python, SQL, PySpark, Databricks, and Azure.
+I focus on building data pipelines, data lakehouses and warehouses, and scalable data solutions, using tools like Python, SQL, PySpark, Databricks and Azure.
 
