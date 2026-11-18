@@ -8,7 +8,7 @@ They have different schemas, so they must be loaded into separate DataFrames.
 
 base = "/Volumes/police/raw/police_files/police_data"
 
-''' Look at one month per year to check file names stay consistent over time '''
+""" Look at one month per year to check file names stay consistent over time """
 
 display(dbutils.fs.ls(f"{base}/2023-09/"))
 display(dbutils.fs.ls(f"{base}/2024-09/"))
