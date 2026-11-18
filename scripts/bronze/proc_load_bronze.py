@@ -1,3 +1,11 @@
+"""
+Objective: Load the raw CSVs into Delta tables in `police.bronze` 
+exactly as they are. No renaming, no type changes, no cleaning. 
+All transformations happen in the Silver layer.
+"""
+
+base = "/Volumes/police/raw/police_files/police_data"
+
 street_df   = spark.read.option("header", True).csv(f"{base}/*/*-street.csv")
 outcomes_df = spark.read.option("header", True).csv(f"{base}/*/*-outcomes.csv")
 sas_df      = spark.read.option("header", True).csv(f"{base}/*/*-stop-and-search.csv")
