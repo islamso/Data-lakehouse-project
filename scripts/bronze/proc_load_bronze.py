@@ -23,3 +23,5 @@ for table_name, df in tables.items():
         .createOrReplace()                                     # create it, or replace it if it exists 
     )
     print(f"Done: police.bronze.{table_name}")
+
+"""Result: 3 raw Delta tables were created: `police.bronze.street`, `police.bronze.outcomes` and `police.bronze.stop_and_search`."""
