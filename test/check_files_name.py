@@ -1,7 +1,7 @@
 ## Pre-Ingestion: Source File Inspection
 
 """
-Before loading anything, I looked at the raw files in the Databricks Volume to understand their structure. 
+Before loading anything into the bronze layer , I looked at the raw files in the Databricks Volume to understand their structure. 
 Each month folder contains 3 types of CSV (street crimes, outcomes, stop and search). 
 They have different schemas, so they must be loaded into separate DataFrames.
 """
